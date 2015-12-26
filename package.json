@@ -1,0 +1,25 @@
+{
+  "name": "jquery.opengraph-preview",
+  "version": "0.0.1",
+  "description": "A jQuery plugin to display OpenGraph metadata on a webpage",
+  "main": "jquery.opengraph-preview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugierLe42e/jquery.opengraph-preview.git"
+  },
+  "keywords": [
+    "OpenGraph",
+    "jQuery",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Augier",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AugierLe42e/jquery.opengraph-preview/issues"
+  },
+  "homepage": "https://github.com/AugierLe42e/jquery.opengraph-preview#readme"
+}
