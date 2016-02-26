@@ -1,0 +1,3 @@
+[submodule "spec/open-graph-protocol-examples"]
+	path = spec/open-graph-protocol-examples
+	url = https://github.com/niallkennedy/open-graph-protocol-examples.git

@@ -1,29 +1,29 @@
-/*************************************************************
- * Use:                                                      *
- * $("#link").linkpreview({                                  *
- *     url: "https://diasporafoundation.org/",  //optional   *
- *     previewContainerClass: "jq-opengraph-preview"         *
- *     proxy: example.com?%QUERY                             *
- *     preProcess: function() {                 //optional   *
- *         console.log("preProcess");                        *
- *     },                                                    *
- *     onSuccess: function(data) {              //optional   *
- *         console.log("onSuccess");                         *
- *     },                                                    *
- *     onError: function() {                    //optional   *
- *         console.log("onError");                           *
- *     },                                                    *
- *     onParseError: function() {               //optional   *
- *         console.log("onError");                           *
- *     },                                                    *
- *     onComplete: function() {                 //optional   *
- *         console.log("onComplete");                        *
- *     },                                                    *
- *     template: function(data) {               //optional   *
- *         // render template                                *
- *     }                                                     *
- * });                                                       *
- *************************************************************/
+/********************************************************************
+ * Use:                                                             *
+ * $("#link").linkpreview({                                         *
+ *     url: "https://diasporafoundation.org/",           //optional *
+ *     previewContainerClass: "jq-opengraph-preview"     //optional *
+ *     proxy: example.com?%QUERY                         //optional *
+ *     preProcess: function() {                          //optional *
+ *         console.log("preProcess");                               *
+ *     },                                                           *
+ *     onSuccess: function(data) {                       //optional *
+ *         console.log("onSuccess");                                *
+ *     },                                                           *
+ *     onError: function() {                             //optional *
+ *         console.log("onError");                                  *
+ *     },                                                           *
+ *     onParseError: function() {                        //optional *
+ *         console.log("onError");                                  *
+ *     },                                                           *
+ *     onComplete: function() {                          //optional *
+ *         console.log("onComplete");                               *
+ *     },                                                           *
+ *     template: function(data) {                        //optional *
+ *         // render template                                       *
+ *     }                                                            *
+ * });                                                              *
+ ********************************************************************/
 
 (function($){
   var OpengraphPreview = function(element, options){
