@@ -1,0 +1,24 @@
+{
+  "name": "jquery.opengraph-preview",
+  "description": "A jQuery plugin to display OpenGraph metadata on a webpage",
+  "main": "jquery.opengraph-preview.js",
+  "authors": [
+    "Augier"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "OpenGraph",
+    "jQuery",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "homepage": "https://github.com/danderozier/jquery.opengraph-preview",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
